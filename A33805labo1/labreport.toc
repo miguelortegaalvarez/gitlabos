@@ -1,0 +1,3 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Enunciado}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Capturas de pantalla}{2}{subsection.1.1}
