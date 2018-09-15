@@ -111,13 +111,15 @@ realizó cada uno de los pasos.
 
 \subsection{Cron, crontab, rsync, ssh}
 \begin{enumerate}
-\item Realice revision bibliografica de que es cron.
-\item Escriba un breve resumen de cual es el formato del archivo crontab y como se utiliza.
+\item Realice revision bibliografica de que es cron. Cron es un daemon que se ejectura desde el mismo instante en el que arranca el sistema. Comprueba si existe alguna tarea para ser ejecturada de acuerdo a la hora configurada en el sistema. En funcion de la distribucion, se inicia utilizando las carpetas /etc/rc.d/ o /etc/init.d y a cada minuto comprueba los ficheros /etc/crontab en busca de posibles ejecuciones \cite{Fulanito1999}
+\item Escriba un breve resumen de cual es el formato del archivo crontab y como se utiliza. Crontab es un archivo de texto que posee una lista con todos los scripts a ejecutar. Es posible modificarlo con el comando crontab -e. \\
+La estructura del comando es la siguiente: \\
+min(0-59) hr(0-23) dia(0-31) mes(1-12) dia de la semana(0-6) comando a ejecutar
 \item Investigue sobre el uso del comando rsync, y su uso a traves de ssh. Puede utilizar este enlace como guia https://www.digitalocean.com/community/tutorials/how-to-copy-files-with-rsync-over-ssh
 \item Cree llaves ssh para su usuario de manera que no le pida contrasena a la hora de conectarse la computadora de su companero.
 \item Ejecute un comando de rsync sobre ssh que permita respaldar su \$HOME en algún directorio del \$HOME del usuario de su companero.
 \item Programe su computadora para realizar el ejercicio el punto anterior todos los miercoles a las 3:00am.
-
+ 
 \end{enumerate}
 
 \subsection{Instalacion de programas desde codigo fuente}
@@ -145,25 +147,25 @@ Nota: recuerde revisar el README o el INSTALL para conocer las dependencias e in
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{img/2.png}
-\caption{comandos de enunciado del 5 al 6}
+\caption{comandos de enunciado del 5 al 9}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{img/3.png}
-\caption{comandos de enunciado del 7 y 8}
+\caption{comandos de enunciado del 10 al 12}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{img/4.png}
-\caption{comandos de enunciado del 9 y 10}
+\includegraphics[width=0.5\textwidth]{img/16.png}
+\caption{Instalando snapd}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth]{img/5.png}
-\caption{archivo CPU\_ie0117.txt modificado}
+\includegraphics[width=0.5\textwidth]{img/17.png}
+\caption{Instalando spotify}
 \end{figure}
 
 \begin{figure}[H]
